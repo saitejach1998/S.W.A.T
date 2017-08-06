@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Qpage</title>
+    <link rel="stylesheet" href="qPage.css" />
+    <script src="node_modules\sweetalert2\dist\sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="node_modules\sweetalert2\dist\sweetalert2.min.css">
+</head>
+
+<body>
+    <div id="quiz" class="quiz">
+        <div id="question">
+            <p id="q"></p>
+        </div>
+        <div id="picture">
+            <img src="" id="image" alt="" height="100" width="100">
+        </div>
+        <div id="answer">
+            <input type="number" id="userAnswer" value="" />
+            <input type="button" id="Submit" value="Submit" />
+        </div>
+    </div>
+    <div id="red-zone" class="red-zone" style="display:none;">
+        <div id="question-red">
+            <p id="q-r">Enter a number in between 0 and 9 (inclusive)</p>
+        </div>
+        <div id="answer-red">
+            <input type="number" id="randomAnswer" value="" />
+            <input type="button" id="Submit-red" value="Submit" />
+        </div>
+
+    </div>
+    <script src="qPage.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+body {
+    background-color: #F6F2EB;
+}
+
+#grid {
+    position: relative;
+}
+
+.board {
+    align-items: baseline;
+    display: table;
+    border-collapse: collapse;
+    border-color: black;
+    border-style: solid;
+    border-width: initial;
+}
+
+tr td {
+    border-style: solid;
+    border-color: black;
+    border-width: initial;
+}
+
+.foo {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.fool {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+}
+
+.yellow {
+    background: #ffff00;
+}
+
+.white {
+    background: #ffffff;
+}
+
+.red {
+    background: #ae163e;
+}
+
+.green {
+    background: #00ff00;
+}
+
+#legend {
+    position: relative;
+}
+
+#wrong {
+    position: absolute;
+    left: 0px;
+}
+
+#correct {
+    position: absolute;
+    right: 0;
+}
+
+#unattempt {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#current {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
